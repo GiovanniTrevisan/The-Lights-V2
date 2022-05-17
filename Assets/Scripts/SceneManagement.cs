@@ -15,6 +15,11 @@ public class SceneManagement : MonoBehaviour {
     public Animator animator;
     public Image black;
 
+    void Start()
+    {
+       LoadLevel(2);
+    }
+
     public void LoadLevel(int sceneIndex)
     {
         StartCoroutine (LoadAsynchronously (sceneIndex));
