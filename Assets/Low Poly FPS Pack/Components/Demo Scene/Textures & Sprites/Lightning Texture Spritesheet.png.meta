@@ -1,13 +1,21 @@
 fileFormatVersion: 2
 guid: c83b11faac59d684e90be81a6754994f
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: lightning_sprite_1
-    21300002: lightning_sprite_2
-    21300004: lightning_sprite_3
-    21300006: lightning_sprite_4
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: lightning_sprite_1
+  - first:
+      213: 21300002
+    second: lightning_sprite_2
+  - first:
+      213: 21300004
+    second: lightning_sprite_3
+  - first:
+      213: 21300006
+    second: lightning_sprite_4
   externalObjects: {}
-  serializedVersion: 9
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
@@ -35,9 +43,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 1
     aniso: 16
-    mipBias: -100
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -61,8 +69,9 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  applyGammaDecoding: 1
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -73,6 +82,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -92,6 +102,7 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: 0f2999c57c91bcc4cba44bde0443dc12
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
@@ -112,6 +123,7 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: 4314a7aa81f9875498aed1f83b3a835e
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
@@ -132,6 +144,7 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: 56b771230efc978478feb5d0f878ddf3
+      internalID: 21300004
       vertices: []
       indices: 
       edges: []
@@ -152,6 +165,7 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: 7f8b65811a101a64983f9c0cea48ee56
+      internalID: 21300006
       vertices: []
       indices: 
       edges: []
@@ -160,10 +174,12 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
+    secondaryTextures: []
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
