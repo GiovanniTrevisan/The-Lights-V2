@@ -28,6 +28,7 @@ public class MENU : MonoBehaviour {
 	void Awake(){
 		DontDestroyOnLoad (transform.gameObject);
 		resolucoesSuportadas = Screen.resolutions;
+		animator.gameObject.SetActive(true);
 	}
 
 	void Start () {
